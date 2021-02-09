@@ -4,6 +4,7 @@ Créer un dashboard interactif contenant de la donnée
 first change
 second change
 
+
 # List of functionalities
 
 - dashboard de pronostics 
@@ -11,3 +12,9 @@ second change
 - barre de recherche 
 - back end : db psql autohebergée + backup (voir fonctionnalités pgadmin)
 
+# Outils de développement
+# Configuration de l'environnement de dev 
+# pour OSX (clément)
+# pour Linux (thibault)
+# pour Windows (thibault / pierre)
+# Commun

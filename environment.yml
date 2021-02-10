@@ -1,0 +1,6 @@
+name: dashboard-project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+prefix: C:\Users\pierr\anaconda3\envs\dashboard-project

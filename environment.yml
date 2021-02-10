@@ -3,4 +3,5 @@ channels:
   - defaults
 dependencies:
   - python=3.8
+  - flask
 prefix: C:\Users\pierr\anaconda3\envs\dashboard-project

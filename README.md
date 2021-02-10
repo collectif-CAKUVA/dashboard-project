@@ -18,4 +18,3 @@ second change
 # pour Linux (thibault)
 # pour Windows (thibault / pierre)
 # Commun
-# test Pierre

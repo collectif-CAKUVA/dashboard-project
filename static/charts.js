@@ -1,12 +1,15 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
+
+/*code a rajouter*/
+
 var myChart = new Chart(ctx, {
 type: 'bar',
 data: {
   labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
   datasets: [{
     label: '# of Votes',
-    data: [35, 19, 3, 5, 2, 50],
+    data: [35, 19, 3, 5, 2, 80],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',

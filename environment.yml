@@ -1,9 +1,13 @@
 name: dashboard-project
 channels:
+  - https://conda.atoti.io
+  - conda-forge
   - defaults
 dependencies:
+  - requests
   - python=3.8
   - flask
   - beautifulsoup4
-  - requests
+  - scrapy
+  - certifi
 prefix: /Users/marinelafargue/anaconda3/envs/dashboard-project

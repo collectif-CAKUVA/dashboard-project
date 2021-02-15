@@ -7,7 +7,7 @@
   rel="stylesheet"
   integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
   crossorigin="anonymous">
-  <!--   <link rel="stylesheet" href="css/style.css"> -->
+     <link rel="stylesheet" href="static/test.css">
   <title>mon grap charts.js</title>
 </head>
 
@@ -36,7 +36,7 @@
 
 
   <strong>
-    <h1 style="color:grey;text-align:center;">DASHBOARD  de qualite</h1>
+    <h1>DASHBOARD  de qualite</h1>
   </strong>
 
   <div class="container">
@@ -50,47 +50,47 @@
 
 </body>
 
-<!--<script src="static/charts.js"></script>-->
+<script src="static/charts.js"></script>
 
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
+<!--<script>-->
+<!--var ctx = document.getElementById('myChart').getContext('2d');-->
 
-var myChart = new Chart(ctx, {
-type: 'bar',
-data: {
-  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-  datasets: [{
-    label: '# of Votes',
-    data: [35, 19, 3, 5, 2, 20],
-      backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)'
-        ],
-      borderColor: [
-      'rgba(255, 99, 132, 1)',
-      'rgba(54, 162, 235, 1)',
-      'rgba(255, 206, 86, 1)',
-      'rgba(75, 192, 192, 1)',
-      'rgba(153, 102, 255, 1)',
-      'rgba(255, 159, 64, 1)'
-      ],
-      borderWidth: 1
-      }]
-      },
-          options: {
-              scales: {
-                  yAxes: [{
-                      ticks: {
-                          beginAtZero: true
-                      }
-                  }]
-              }
-          }
-      });
-</script>
+<!--var myChart = new Chart(ctx, {-->
+<!--type: 'bar',-->
+<!--data: {-->
+<!--  labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],-->
+<!--  datasets: [{-->
+<!--    label: '# of Votes',-->
+<!--    data: [35, 19, 3, 5, 2, 20],-->
+<!--      backgroundColor: [-->
+<!--        'rgba(255, 99, 132, 0.2)',-->
+<!--        'rgba(54, 162, 235, 0.2)',-->
+<!--        'rgba(255, 206, 86, 0.2)',-->
+<!--        'rgba(75, 192, 192, 0.2)',-->
+<!--        'rgba(153, 102, 255, 0.2)',-->
+<!--        'rgba(255, 159, 64, 0.2)'-->
+<!--        ],-->
+<!--      borderColor: [-->
+<!--      'rgba(255, 99, 132, 1)',-->
+<!--      'rgba(54, 162, 235, 1)',-->
+<!--      'rgba(255, 206, 86, 1)',-->
+<!--      'rgba(75, 192, 192, 1)',-->
+<!--      'rgba(153, 102, 255, 1)',-->
+<!--      'rgba(255, 159, 64, 1)'-->
+<!--      ],-->
+<!--      borderWidth: 1-->
+<!--      }]-->
+<!--      },-->
+<!--          options: {-->
+<!--              scales: {-->
+<!--                  yAxes: [{-->
+<!--                      ticks: {-->
+<!--                          beginAtZero: true-->
+<!--                      }-->
+<!--                  }]-->
+<!--              }-->
+<!--          }-->
+<!--      });-->
+<!--</script>-->
 
 </html>
